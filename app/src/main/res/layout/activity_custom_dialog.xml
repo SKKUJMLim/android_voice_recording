@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomDialog"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="재생"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="일시정지"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="다시시작"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="정지"/>
+    <Button
+        android:id="@+id/btn_sharefile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="파일공유"/>
+    <Button
+        android:id="@+id/btn_shutdown"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="닫기"/>
+
+</LinearLayout>
